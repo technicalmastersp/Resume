@@ -10,9 +10,10 @@
   </head>
   <body>
     <header>
+      <section class="header">
         <!-- clearfix -->
         <!-- <nav class="navbar bg-primary sp-hNav-bg clearfix"> -->
-        <nav class="navbar bg-light clearfix sp-hNav-bg">
+        <nav class="navbar bg-light clearfix px-4 sp-hNav-bg">
             <div class="container-fluid">
               <a class="navbar-brand fs-1 sp-navbar-brand"><i class="bi bi-code-slash"></i> Technical Master SP</a>
               <!-- <a class="navbar-brand fs-1 sp-navbar-brand">Shashank S. Pandey</a> -->
@@ -38,9 +39,10 @@
               </form>
             </div>
         </nav>
+      </section>
     </header>
     <main>
-        <section class="intro sp-intro-bg">
+        <section class="intro sp-intro-bg px-4">
             <div class="container text-center">
                 <div class="row">
                   <div class="col">
@@ -52,7 +54,7 @@
                 </div>
               </div>
         </section>
-        <section class="accordion container-fluid py-4">
+        <section class="accordion container-fluid py-4 px-4">
             <h2>* Projects</h2>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -93,7 +95,7 @@
                 </div>
               </div>
         </section>
-        <section class="contact container pb-5">
+        <section class="contact container pb-5 px-4">
             <div class="col-12 text-center fs-4 fw-semibold py-3"> Get in Touch</div>
             <div class="col-12 text-center fs-1 fw-bold  pb-5"> Contact Me</div>
             <form class="row g-3">
@@ -121,10 +123,10 @@
                 <div class="col-md-4">
                   <label for="inputState" class="form-label">State</label>
                   <select id="inputState" class="form-select border-primary" required>
-                    <option selected disabled>Choose...</option>
-                    <option  disabled></option>
-                	<option value="AP" disabled>----- States -----</option>
-                    <option  disabled></option>
+                    <option selected disabled>Choose...</option>                  <!-- disabled option -->
+                    <option  disabled></option>                                   <!-- disabled option -->
+                	<option value="AP" disabled>-------- States --------</option>   <!-- disabled option -->
+                    <option  disabled></option>                                   <!-- disabled option -->
                 	<option value="AP" >Andhra Pradesh</option>
                 	<option value="AR">Arunachal Pradesh</option>
                 	<option value="AS">Assam</option>
@@ -140,8 +142,8 @@
                 	<option value="KL">Kerala</option>
                 	<option value="MP">Madhya Pradesh</option>
                 	<option value="MH">Maharashtra</option>
-                    <option value="MN">Manipur</option>
-                    <option value="ML">Meghalaya</option>
+                  <option value="MN">Manipur</option>
+                  <option value="ML">Meghalaya</option>
                 	<option value="MZ">Mizoram</option>
                 	<option value="NL">Nagaland</option>
                 	<option value="OR">Odisha</option>
@@ -154,9 +156,9 @@
                 	<option value="UT">Uttarakhand</option>
                 	<option value="UP">Uttar Pradesh</option>
                 	<option value="WB">West Bengal</option>
-                	<option value="" disabled></option>
-                	<option value="" disabled>----- Union Territory -----</option>
-                	<option value="" disabled></option>
+                	<option disabled></option>                                      <!-- disabled option -->
+                	<option disabled>-------- Union Territory --------</option>     <!-- disabled option -->
+                	<option disabled></option>                                      <!-- disabled option -->
                 	<option value="AN">Andaman and Nicobar Islands</option>
                 	<option value="CH">Chandigarh</option>
                 	<option value="DN">Dadra and Nagar Haveli</option>
@@ -184,40 +186,47 @@
                       I agree to terms
                     </label>
                     <div id="invalidCheck3Feedback" class="">
-                      You must agree before submitting.
+                      <p class=""><small><small><small>You must agree before submitting.</small></small></small></p>
                     </div>
                   </div>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button class="btn btn-primary" type="submit">Submit</button>
+                <div class="d-grid gap-2 col-6 mx-auto pb-4">
+                    <button class="btn btn-primary fs-4" type="submit">Submit</button>
                 </div>
               </form>
         </section>
     </main>
     <footer>
-        <section class="container-fluid footer d-flex flex-column justify-content-between">
-            <!-- <div class="col-md-12 d-flex flex-row justify-content-between" style="background-color: brown;"> -->
-            <div class="col-md-12 d-flex flex-row justify-content-between">
+        <section class="container-fluid footer d-flex flex-column justify-content-between px-4 mb-5">
+            <!-- <div class="col-md-12 d-flex flex-row justify-content-between px-2 align-items-center" style="background-color: brown;"> -->
+            <div class="col-md-12 d-flex flex-row justify-content-between px-2 align-items-center pt-4">
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum natus, hic eaque reprehenderit magnam ducimus numquam aperiam maiores eos expedita animi magni nulla cum eveniet sint unde quisquam sapiente!</p> -->
-                <div class="div1"></div>
-                <div class="div2">
+                <div class="sp-footer-brand fs-4"><i class="bi bi-code-slash"></i> Technical Master SP</div>
+                <div class="sp-footer-nav fs-5 text-dark">
                     <a href="#">Home</a>
                     <a href="#">Portfolio</a>
                     <a href="#">About Us</a>
                     <a href="#">Link</a>
                 </div>
-                <div class="socialLink">
+                <div class="socialLink fs-4">
                     <a href="#"><i class="bi bi-github"></i></a>
                     <a href="#"><i class="bi bi-twitter-x"></i></a>
                     <a href="#"><i class="bi bi-linkedin"></i></a>
                     <a href="#"><i class="bi bi-instagram"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>
                 </div>
-            </div>        
+            </div>      
+
             <hr/>
-            <!-- <div class="col-md-12" style="background-color: blue;"> -->
-            <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsum natus, hic eaque reprehenderit magnam ducimus numquam aperiam maiores eos expedita animi magni nulla cum eveniet sint unde quisquam sapiente!</p>
+
+            <!-- <div class="col-md-12 d-flex flex-row justify-content-between px-2 align-items-center" style="background-color: blue;"> -->
+            <div class="col-md-12 d-flex flex-row-reverse justify-content-between px-2 align-items-center">
+                <!-- <div class="sp-footer-brand fs-4"><i class="bi bi-code-slash"></i> Technical Master SP</div> -->
+                <div class="sp-footer-nav fs-6 text-dark">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookies Setting</a>
+                </div>
             </div>        
         </section>
     </footer>

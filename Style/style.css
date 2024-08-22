@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');  /* For Normal : font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Zeyada", "Great Vibes", "Caveat", "Grey Qo", "Dancing Script", "Qwitcher Grypen", "Qwitcher Grypen" */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen"; */
 
 
 main{
@@ -10,6 +10,10 @@ main{
 
 /*   **************************************************************  Header Styling  **************************************************************   */
 
+
+header{
+    background-color: #ffffff !important;
+}
 .sp-intro-bg{
     background-color: #f5fcff;
     height: 550px;
@@ -38,23 +42,42 @@ main{
 
 /*   **************************************************************  Footer Styling  **************************************************************   */
 
-footer{
+/* footer{
+    background-color: #ebf8fd !important;
+    height: 270px; 
+}*/
+
+footer section{
+    /* height: 100%; */
     background-color: #ebf8fd !important;
     height: 270px;
-}
-section{
-    height: 100%;
+    user-select: none;
 }
 footer section div{
-    height: 40%;
+    height: 49%;
 }
 footer section hr{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
+section .sp-footer-brand{
+    /* font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
+    font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen";
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #e900ff;
+}
 
-
-
-
-
-
+.sp-footer-nav a{
+    /* padding-left: 15px; */
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.socialLink a{
+    /* padding-left: 10px; */
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
