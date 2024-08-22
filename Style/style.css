@@ -3,7 +3,7 @@
 
 main{
     background-color: rgb(166, 213, 109);
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 .sp-intro-bg{
     background-color: #f5fcff;
