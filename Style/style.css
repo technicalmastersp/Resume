@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');  /* For Normal : font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen"; */
 
 
 main{
-    /* background-color: rgb(166, 213, 109); */
     background-color: #ffffff !important;
 }
 
@@ -14,30 +13,32 @@ main{
 header{
     background-color: #ffffff !important;
 }
-.sp-intro-bg{
-    background-color: #f5fcff;
-    height: 550px;
-    
-}
 .sp-hNav-bg{
-    /* background-color: #e900ff !important; */
     background-color: #ffffff !important;
-}
-.sp-hNav-bg{
     box-shadow: 0 3px 10px #d9d7d9;
 }
 .sp-color{
-    /* color: #00ff85; */
-    /* outline-color: #00ff85 !important; */
     font-weight: 700;
 }
-
 .sp-navbar-brand {
   font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
   color: #e900ff;
+}
+
+/*   **************************************************************  Main Styling  **************************************************************   */
+
+.sp-intro-bg{
+    background-color: #f5fcff;
+    height: 550px;
+    
+}
+.intro .row div{
+    height: 90% !important;
+    color: #ff0000;
+    background-color: #FFD700;
 }
 
 /*   **************************************************************  Footer Styling  **************************************************************   */
@@ -68,7 +69,6 @@ section .sp-footer-brand{
     font-style: normal;
     color: #e900ff;
 }
-
 .sp-footer-nav a{
     /* padding-left: 15px; */
     margin-left: 10px;
