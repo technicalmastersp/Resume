@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+main{
+    background-color: rgb(166, 213, 109);
+}
+.sp-intro-bg{
+    background-color: #f5fcff;
+    height: 550px;
+    
+}
+.sp-hNav-bg{
+    /* background-color: #e900ff !important; */
+    background-color: #ffffff !important;
+}
+.sp-hNav-bg{
+    box-shadow: 0 3px 10px #d9d7d9;
+}
+.sp-color{
+    /* color: #00ff85; */
+    /* outline-color: #00ff85 !important; */
+    font-weight: 700;
+}
+
+.sp-navbar-brand {
+  font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  color: #e900ff;
+}
+
+footer{
+    background-color: #6b6969;
+}
