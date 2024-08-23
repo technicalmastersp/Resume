@@ -1,7 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');  /* For Normal : font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen"; */
-
+:root{
+    --sp-rem-df-size : 16px;
+    --sp-rem-df-size : 16px;
+}
 
 main{
     background-color: #ffffff !important;
@@ -15,7 +18,7 @@ header{
 }
 .sp-hNav-bg{
     background-color: #ffffff !important;
-    box-shadow: 0 3px 10px #d9d7d9;
+    box-shadow: 0 .1875rem .625rem #d9d7d9;
 }
 .sp-color{
     font-weight: 700;
@@ -28,30 +31,42 @@ header{
   color: #e900ff;
 }
 
+
 /*   **************************************************************  Main Styling  **************************************************************   */
 
 .sp-intro-bg{
     background-color: #f5fcff;
-    height: 550px;
-    
+    height: 40rem;
+    background-image: url(../assets/image/indroBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 .intro .row div{
     height: 90% !important;
     color: #ff0000;
-    background-color: #FFD700;
+    width: 50%;
+    /* background-color: #FFD700; */
+}
+
+.box1{
+    background-image: url(../assets/image/sp-photo.png);
+    height: 100%;
+}
+.box2 img{
+    height: 39.0625rem !important;
 }
 
 /*   **************************************************************  Footer Styling  **************************************************************   */
 
 /* footer{
     background-color: #ebf8fd !important;
-    height: 270px; 
+    height: 16.875rem; 
 }*/
 
 footer section{
-    /* height: 100%; */
     background-color: #ebf8fd !important;
-    height: 270px;
+    height: 16.875rem;
     user-select: none;
 }
 footer section div{
@@ -69,15 +84,15 @@ section .sp-footer-brand{
     font-style: normal;
     color: #e900ff;
 }
-.sp-footer-nav a{
-    /* padding-left: 15px; */
-    margin-left: 10px;
+.sp-footer-nav1 a, .sp-footer-nav2 a{
+    /* padding-left: .9375rem; */
+    margin-left: .625rem;
     text-decoration: none;
     color: #000000;
 }
 .socialLink a{
-    /* padding-left: 10px; */
-    margin-left: 10px;
+    /* padding-left: .625rem; */
+    margin-left: .625rem ;
     text-decoration: none;
-    color: #000000;
+    color: #000000; 
 }
