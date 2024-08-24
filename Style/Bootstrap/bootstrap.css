@@ -16,9 +16,6 @@
         font-size: 13px !important;
     } */
     
-    section .sp-footer-brand, .socialLink a{
-        font-size: 17px !important;
-    }
     section .sp-direction{
         flex-direction: column !important;
         padding: 0 !important;

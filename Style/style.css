@@ -1,10 +1,28 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');  /* For Normal : font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen"; */
-:root{
-    --sp-rem-df-size : 16px;
-    --sp-rem-df-size : 16px;
+
+/*   **************************************************************  Unique Styling  **************************************************************   */
+
+.sp-ai-image{                         /*     this code for image ( !intro ), Add this class : sp-ai-image   */
+    height: 500px !important;
+    overflow: hidden !important;
+    border: transparent;
 }
+.sp-ai-image img{
+    height: 500px !important;
+    width: 648px !important;
+    object-fit: fill !important;
+    border-radius: 15% 25% 15% 25%;
+}                                    /*     this code for image ( !intro ), Add this class : sp-ai-image   */
+
+.sp-h2{
+    font-size: 55px !important;
+    font-family: cursive,'Courier New', Courier, monospace;
+}
+
+
+/*   **************************************************************  Header Styling  **************************************************************   */
 
 main{
     background-color: #ffffff !important;
@@ -55,7 +73,19 @@ header{
 }
 .box2 img{
     height: 39.0625rem !important;
+    /* width: -webkit-fill-available !important; */
 }
+
+
+
+.education .container div{
+    width: 50% !important;
+}
+
+
+
+
+
 
 /*   **************************************************************  Footer Styling  **************************************************************   */
 
