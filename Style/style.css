@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');  /* For Normal : font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Grey+Qo&family=Qwitcher+Grypen:wght@400;700&family=Zeyada&display=swap');  /* For Styling : font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen"; */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Macondo&display=swap');        /* For Gif : font-family:  */
 
 /*   **************************************************************  Unique Styling  **************************************************************   */
 
@@ -53,7 +54,7 @@ header{
 /*   **************************************************************  Main Styling  **************************************************************   */
 
 .sp-intro-bg{
-    background-color: #f5fcff;
+    background-color: #f5fcff;  
     height: 40rem;
     background-image: url(../assets/image/indroBg.png);
     background-repeat: no-repeat;
@@ -61,10 +62,9 @@ header{
 
 }
 .intro .row div{
-    height: 90% !important;
     color: #ff0000;
     width: 50%;
-    /* background-color: #FFD700; */
+    padding-bottom: 5px !important;
 }
 
 .box1{
@@ -73,12 +73,11 @@ header{
 }
 .box2 img{
     height: 39.0625rem !important;
-    /* width: -webkit-fill-available !important; */
 }
 
 
 
-.education .container div{
+.sp-section-tool .container div{
     width: 50% !important;
 }
 
@@ -89,10 +88,6 @@ header{
 
 /*   **************************************************************  Footer Styling  **************************************************************   */
 
-/* footer{
-    background-color: #ebf8fd !important;
-    height: 16.875rem; 
-}*/
 
 footer section{
     background-color: #ebf8fd !important;
@@ -107,7 +102,6 @@ footer section hr{
     margin: 0 auto;
 }
 section .sp-footer-brand{
-    /* font-family: "Dancing Script", "Caveat", "Edu VIC WA NT Beginner", cursive; */
     font-family: "Dancing Script", "Caveat", "Zeyada", "Great Vibes", "Grey Qo", "Qwitcher Grypen";
     font-optical-sizing: auto;
     font-weight: 900;
@@ -115,14 +109,92 @@ section .sp-footer-brand{
     color: #e900ff;
 }
 .sp-footer-nav1 a, .sp-footer-nav2 a{
-    /* padding-left: .9375rem; */
     margin-left: .625rem;
     text-decoration: none;
     color: #000000;
 }
 .socialLink a{
-    /* padding-left: .625rem; */
     margin-left: .625rem ;
     text-decoration: none;
     color: #000000; 
+}
+
+/*   **************************************************************  Intro Animation Styling  **************************************************************   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Animation 1  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
+
+#flip {
+    height:80px;
+    width: 100% !important;
+    overflow:hidden;
+  }
+    
+  #flip > div {
+      width: 100% !important;
+  }
+  #flip > div > div {
+    font-family: "Edu VIC WA NT Beginner", "Baskervville SC", "Macondo", cursive;
+    color:#fff;
+    width: 100% !important;
+    display:inline-block;
+    padding: 22px 0px;
+    height: 75px;
+    margin-bottom: 75px;
+    font-size: 35px;
+    font-weight: 900;
+  }
+  #flip div:first-child {
+    animation: show 15s linear infinite reverse;
+  }
+  
+  #flip div div {
+    color:#00FF00;
+  }
+  #flip div:first-child div {
+    color:#FF0000;
+  }
+  #flip div:last-child div {
+    color:#0000FF;
+  }
+
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Animation 2  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
+
+.img-gif {
+  font-family: "Macondo", "Edu VIC WA NT Beginner", cursive, "Baskervville SC";
+  font-size:4em;
+  height:200px !important;
+  width:600px !important;
+  display:block;
+  margin:auto;
+
+}
+.img-gif #text{
+    display: inline-block;
+    height: 100% !important;
+    width: 100% !important;
+    text-align: center !important;
 }
