@@ -1,6 +1,6 @@
 consoleText(["Hello I'm Shashank S. Pandey", 'A Software Engineer', 'with good skills & knowledge'], 'text',['#ff6347','#663399','#990099']);
 
-// alert("Site Under Maintenance... \nPlease open in Desktop Mode or Laptop.")
+alert("Site Under Maintenance... \nPlease open in Desktop Mode or Laptop.")
 
 function ruko(){
   alert("Site Under Maintenance...")
