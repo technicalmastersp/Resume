@@ -1,8 +1,10 @@
-// function([string1, string2],target id,[color1,color2])    
-// consoleText(["Hello I'm Shashank S. Pandey", 'A Software Engineer', 'with good skills & knowledge'], 'text',['tomato','rebeccapurple','lightblue']);
 consoleText(["Hello I'm Shashank S. Pandey", 'A Software Engineer', 'with good skills & knowledge'], 'text',['#ff6347','#663399','#990099']);
 
-alert("Site in Maintenance \nPlease open in Desktop Mode or Laptop.")
+// alert("Site Under Maintenance... \nPlease open in Desktop Mode or Laptop.")
+
+function ruko(){
+  alert("Site Under Maintenance...")
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  For Animation 2 (index.html)  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -42,17 +44,4 @@ function consoleText(words, id, colors) {
       letterCount += x;
     }
   }, 120)
-//   window.setInterval(function() {
-//     if (visible === true) {
-//       con.className = 'console-underscore hidden'
-//       visible = false;
-
-//     } else {
-//       con.className = 'console-underscore'
-
-//       visible = true;
-//     }
-//   }, 400)
 }
-
-text
